@@ -1,0 +1,159 @@
+/* ── Character Walk Cycle ── */
+.walk .leg-left {
+  transform-box: fill-box;
+  transform-origin: 50% 3%;
+  animation: walkLegL 0.42s ease-in-out infinite;
+}
+.walk .leg-right {
+  transform-box: fill-box;
+  transform-origin: 50% 3%;
+  animation: walkLegR 0.42s ease-in-out infinite;
+}
+.walk .arm-left {
+  transform-box: fill-box;
+  transform-origin: 50% 6%;
+  animation: walkArmL 0.42s ease-in-out infinite;
+}
+.walk .arm-right {
+  transform-box: fill-box;
+  transform-origin: 50% 6%;
+  animation: walkArmR 0.42s ease-in-out infinite;
+}
+.walk .body {
+  animation: walkBob 0.42s ease-in-out infinite;
+}
+
+@keyframes walkLegL {
+  0%, 100% { transform: rotate(0deg);    }
+  25%       { transform: rotate(26deg);  }
+  75%       { transform: rotate(-26deg); }
+}
+@keyframes walkLegR {
+  0%, 100% { transform: rotate(0deg);    }
+  25%       { transform: rotate(-26deg); }
+  75%       { transform: rotate(26deg);  }
+}
+@keyframes walkArmL {
+  0%, 100% { transform: rotate(0deg);    }
+  25%       { transform: rotate(-18deg); }
+  75%       { transform: rotate(18deg);  }
+}
+@keyframes walkArmR {
+  0%, 100% { transform: rotate(0deg);   }
+  25%       { transform: rotate(18deg); }
+  75%       { transform: rotate(-18deg);}
+}
+@keyframes walkBob {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-3px); }
+}
+
+/* ── Idle Breathe ── */
+.idle .body {
+  animation: idleBreathe 3.8s ease-in-out infinite;
+}
+@keyframes idleBreathe {
+  0%, 100% { transform: translateY(0px);  }
+  50%       { transform: translateY(-5px);}
+}
+
+/* ── World Transition Wipe ── */
+@keyframes wipeIn {
+  0%   { transform: scaleX(0); transform-origin: left; }
+  100% { transform: scaleX(1); transform-origin: left; }
+}
+@keyframes wipeOut {
+  0%   { transform: scaleX(1); transform-origin: right; }
+  100% { transform: scaleX(0); transform-origin: right; }
+}
+
+/* ── Stars Twinkle ── */
+@keyframes twinkle {
+  0%, 100% { opacity: var(--op, 0.5);                     }
+  50%       { opacity: calc(var(--op, 0.5) * 0.2);        }
+}
+
+/* ── Dust Motes Rising ── */
+@keyframes dustRise {
+  0%   { transform: translateY(0) translateX(0);           opacity: 0;   }
+  12%  {                                                    opacity: 0.8; }
+  88%  {                                                    opacity: 0.3; }
+  100% { transform: translateY(-130px) translateX(var(--dx, 0px)); opacity: 0; }
+}
+
+/* ── Floating Elements ── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px);    }
+  50%       { transform: translateY(-12px); }
+}
+@keyframes floatRotate {
+  0%, 100% { transform: translateY(0px)    rotate(0deg);  }
+  50%       { transform: translateY(-14px) rotate(6deg);  }
+}
+
+/* ── Pulse Glow ── */
+@keyframes pulse {
+  0%, 100% { opacity: 1;    }
+  50%       { opacity: 0.3; }
+}
+@keyframes pulseScale {
+  0%, 100% { transform: scale(1);    }
+  50%       { transform: scale(1.08);}
+}
+
+/* ── Door Glow ── */
+@keyframes doorGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 14px rgba(212,168,67,0.55))
+            drop-shadow(0 0 28px rgba(212,168,67,0.2));
+  }
+  50% {
+    filter: drop-shadow(0 0 32px rgba(212,168,67,1))
+            drop-shadow(0 0 60px rgba(212,168,67,0.45));
+  }
+}
+
+/* ── Card Float ── */
+@keyframes cardFloat {
+  0%, 100% { transform: translateY(0px);   }
+  50%       { transform: translateY(-7px); }
+}
+
+/* ── Scroll Hint Bounce ── */
+@keyframes scrollBounce {
+  0%, 100% { transform: translateY(0px);  }
+  50%       { transform: translateY(7px); }
+}
+
+/* ── Ink Splatter ── */
+@keyframes inkSplat {
+  0%   { transform: scale(0) rotate(0deg);   opacity: 0; }
+  40%  { transform: scale(1.2) rotate(8deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg);   opacity: 1; }
+}
+
+/* ── Particle Assemble ── */
+@keyframes particleAssemble {
+  0%   { transform: translate(var(--px,0px), var(--py,0px)) scale(0); opacity: 0; }
+  60%  { opacity: 1; }
+  100% { transform: translate(0,0) scale(1); opacity: 1; }
+}
+
+/* ── Music Bar ── */
+@keyframes musicBar {
+  0%, 100% { transform: scaleY(0.3); }
+  50%       { transform: scaleY(1);  }
+}
+
+/* ── Fade Up ── */
+@keyframes fadeUp {
+  0%   { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0);    }
+}
+.fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+.fade-up.d1 { animation-delay: 0.1s; opacity: 0; }
+.fade-up.d2 { animation-delay: 0.25s; opacity: 0; }
+.fade-up.d3 { animation-delay: 0.42s; opacity: 0; }
+.fade-up.d4 { animation-delay: 0.6s; opacity: 0; }

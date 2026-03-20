@@ -1,0 +1,526 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Gaming Axe-I",
+      "world": "3d-spatial",
+      "tags": ["3D"],
+      "image": "/works/gaming-axe-1.webp",
+      "featured": true,
+      "description": "Gaming Axe Sculpted In Maya With Full Texture Work"
+    },
+    {
+      "id": "2",
+      "title": "Gaming Axe-Ii",
+      "world": "3d-spatial",
+      "tags": ["3D", "Concept"],
+      "image": "/works/Gaming Axe-II.webp",
+      "featured": false,
+      "description": "Gaming Axe Sculpted In Maya With Full Texture Work"
+    },
+    {
+      "id": "3",
+      "title": "Tanker Model",
+      "world": "3d-spatial",
+      "tags": ["3D", "Concept"],
+      "image": "/works/Tanker-Model.webp",
+      "featured": false,
+      "description": "Tanker Sculpted In Maya With Full Texture Work"
+    },
+    {
+      "id": "4",
+      "title": "Digital Collectible #1",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_1.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Of Brain Character"
+    },
+    {
+      "id": "5",
+      "title": "Digital Collectible #2",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_2.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Of Crircket Character"
+    },
+    {
+      "id": "6",
+      "title": "Digital Collectible #3",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_3.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Having Lolipop Character"
+    },
+    {
+      "id": "7",
+      "title": "Digital Collectible #4",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_4.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Blue Cartoon With Specs Character"
+    },
+    {
+      "id": "8",
+      "title": "Digital Collectible #5",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_5.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Of Cartoon With Scraf Characters"
+    },
+    {
+      "id": "9",
+      "title": "Digital Collectible #6",
+      "world": "3d-spatial",
+      "tags": ["NFT", "Series"],
+      "image": "/works/nft_6.webp",
+      "featured": true,
+      "description": "1-piece Nft Collection Of Teacher Characters"
+    },
+    {
+      "id": "10",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-1.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "11",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-2.webp",
+      "featured": false,
+      "description": "Bold Logo Design For A Solunex Brand"
+    },
+    {
+      "id": "12",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-3.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "13",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-4.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "14",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-5.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "15",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-6.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "16",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-7.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "17",
+      "title": "Solunex. Brand Identity",
+      "world": "branding",
+      "tags": ["Branding"],
+      "image": "/works/Brand-8.webp",
+      "featured": true,
+      "description": "Full Brand Mobile App Interface"
+    },
+    {
+      "id": "18",
+      "title": "Rinkya Designs Logo",
+      "world": "branding",
+      "tags": ["Logo"],
+      "image": "/works/rinku_logo.webp",
+      "featured": true,
+      "description": "Rinkya Designs Logo"
+    },
+    {
+      "id": "19",
+      "title": "Astitva Logo Design",
+      "world": "branding",
+      "tags": ["Logo"],
+      "image": "/works/astitva_logo_design.webp",
+      "featured": true,
+      "description": "Astitva Logo Design"
+    },
+    {
+      "id": "20",
+      "title": "Wearo Logo Brand Identity",
+      "world": "branding",
+      "tags": ["Logo"],
+      "image": "/works/Wearo_logo.webp",
+      "featured": true,
+      "description": "Wearo Logo Brand Identity"
+    },
+    {
+      "id": "21",
+      "title": "Sticker Pack Batcat Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/BAT_CAT1.webp",
+      "featured": false,
+      "description": "Fun Sticker Pack For Batcat Social Media"
+    },
+    {
+      "id": "22",
+      "title": "Sticker Pack Batcat Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/BAT_CAT2.webp",
+      "featured": false,
+      "description": "Fun Sticker Pack For Batcat Social Media"
+    },
+    {
+      "id": "23",
+      "title": "Sticker Pack Batcat Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/BAT_CAT3.webp",
+      "featured": false,
+      "description": "Fun Sticker Pack For Batcat Social Media"
+    },
+    {
+      "id": "24",
+      "title": "Sticker Pack Batcat Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/BAT_CAT4.webp",
+      "featured": false,
+      "description": "Fun Sticker Pack For Batcat Social Media"
+    },
+    {
+      "id": "25",
+      "title": "Sticker Pack Copperx Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/hi_sticker.gif",
+      "featured": false,
+      "description": "Fun Sticker Pack For Copperx Social Media"
+    },
+    {
+      "id": "26",
+      "title": "Sticker Pack Copperx Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/morning_sticker.webp",
+      "featured": false,
+      "description": "Fun Sticker Pack For Copperx Social Media"
+    },
+    {
+      "id": "27",
+      "title": "Sticker Pack Copperx Vol.1",
+      "world": "branding",
+      "tags": ["Sticker"],
+      "image": "/works/payment-done-sticker.gif",
+      "featured": false,
+      "description": "Fun Sticker Pack For Copperx Social Media"
+    },
+    {
+      "id": "28",
+      "title": "Mermaid Book Cover",
+      "world": "illustrations",
+      "tags": ["Illustration"],
+      "image": "/works/marmaid_illustration.webp",
+      "featured": true,
+      "description": "Illustrated Book Cover Design"
+    },
+    {
+      "id": "29",
+      "title": "Urban Sketches Series",
+      "world": "illustrations",
+      "tags": ["Illustration"],
+      "image": "/works/Memories_bookcover.webp",
+      "featured": false,
+      "description": "Book Cover Illustration For Memories"
+    },
+    {
+      "id": "30",
+      "title": "Positive Mindset Illustration",
+      "world": "illustrations",
+      "tags": ["Illustration"],
+      "image": "/works/POSITIVE_MINDSET_illustration.webp",
+      "featured": false,
+      "description": "Positive Mindset Illustration"
+    },
+    {
+      "id": "31",
+      "title": "Urban Sketches Series",
+      "world": "illustrations",
+      "tags": ["Sketch"],
+      "image": "/works/placeholder.jpg",
+      "featured": false,
+      "description": "A Collection Of Urban Life Sketches In Pen And Ink"
+    },
+    {
+      "id": "32",
+      "title": "Bitcoin Price Explanation 2025",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/bitcoin_price_explanation.mp4",
+      "featured": true,
+      "description": "Bitcoin Price Explanation Video Editing"
+    },
+    {
+      "id": "33",
+      "title": "Sound Design Film",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/Sound_design.mp4",
+      "featured": false,
+      "description": "Sound Design Film Film With Original Direction And Editing"
+    },
+    {
+      "id": "34",
+      "title": "Youtube Short Edit",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/sample_ytshorts.mp4",
+      "featured": false,
+      "description": "Youtube Short Editing"
+    },
+    {
+      "id": "35",
+      "title": "Vrishabha Sale Reel",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/vrishabha_salereel.mp4",
+      "featured": false,
+      "description": "Vrishabha Sale Reel Editing"
+    },
+    {
+      "id": "36",
+      "title": "Amythi Reel Edit",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/amythi_reel.mp4",
+      "featured": false,
+      "description": "Amythi Reel Edit Editing"
+    },
+    {
+      "id": "37",
+      "title": "Amythi Funny Reel 1",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/amythi_funnyreel.mp4",
+      "featured": false,
+      "description": "Amythi Funny Reel Editing"
+    },
+    {
+      "id": "38",
+      "title": "Amythi Funny Reel 2",
+      "world": "motion-design",
+      "tags": ["Video"],
+      "video": "/works/Amythi_funnyreel2.mp4",
+      "featured": false,
+      "description": "Amythi Funny Reel Editing"
+    },
+    {
+      "id": "39",
+      "title": "Ai Short Film — Dreamscape",
+      "world": "motion-design",
+      "tags": ["Video", "AI", "Motion"],
+      "video": "/works/",
+      "featured": false,
+      "description": "Ai-assisted Short Film With Original Direction And Editing"
+    },
+    {
+      "id": "40",
+      "title": "Beauty Product.",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/SMP_BEAUTY_PRODUCT.webp",
+      "featured": true,
+      "description": "Beauty Product Poster"
+    },
+    {
+      "id": "41",
+      "title": "Beverages",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/SMP_BEVERAGES.webp",
+      "featured": false,
+      "description": "Beverages Poster"
+    },
+    {
+      "id": "42",
+      "title": "Jewellry Poster",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/SMP_JEWELLRY.webp",
+      "featured": false,
+      "description": "Jewellry Posters For An Indie Music Festival"
+    },
+    {
+      "id": "43",
+      "title": "Travel Series",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/travel.webp",
+      "featured": false,
+      "description": "Travel Series"
+    },
+    {
+      "id": "44",
+      "title": "Socail Media Post",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/social_media_post_gaming.webp",
+      "featured": false,
+      "description": "Social Media Post Gaming"
+    },
+    {
+      "id": "45",
+      "title": "Copperx Card",
+      "world": "poster-design",
+      "tags": ["Poster"],
+      "image": "/works/copperx_card_design.webp",
+      "featured": false,
+      "description": "Copperx Card Design"
+    },
+    {
+      "id": "46",
+      "title": "Music Festival Series",
+      "world": "poster-design",
+      "tags": ["Poster", "Print", "Series"],
+      "image": "/works/placeholder.jpg",
+      "featured": false,
+      "description": "Series Of 4 Posters For An Indie Music Festival"
+    },
+    {
+  "id": "47",
+  "title": "Adobe Illustrator",
+  "world": "toolkit",
+  "tags": ["Design", "Adobe"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg",
+  "featured": true,
+  "description": "Vector Illustration, Logo Design, Typography"
+},
+{
+  "id": "48",
+  "title": "Maya 3d",
+  "world": "toolkit",
+  "tags": ["3D", "Modeling"],
+  "image": "https://1000logos.net/wp-content/uploads/2023/04/Autodesk-Maya-Logo-2016.png",
+  "featured": true,
+  "description": "3d Modeling, Rigging, Texturing — Primary 3d Tool"
+},
+{
+  "id": "49",
+  "title": "DaVinci Resolve",
+  "world": "toolkit",
+  "tags": ["Video", "Color"],
+  "image": "https://images.blackmagicdesign.com/images/media/press-images/davinci-resolve-logo/davinci-resolve-logo-hero.jpg?_v=1621308338",
+  "featured": true,
+  "description": "Professional Color Grading And Advanced Video Editing"
+},
+{
+  "id": "50",
+  "title": "Figma",
+  "world": "toolkit",
+  "tags": ["Design", "UI"],
+  "image": "https://s3-alpha.figma.com/hub/file/2167104317601928565/6fe8c744-e5e1-40f1-a462-9d1793090d6e-cover.png",
+  "featured": true,
+  "description": "Ui/ux Design, Prototyping, Collaboration"
+},
+{
+  "id": "51",
+  "title": "Midjourney",
+  "world": "toolkit",
+  "tags": ["AI"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Midjourney_Emblem.svg",
+  "featured": true,
+  "description": "Ai Image Generation For Concept Art And Ideation"
+},
+{
+  "id": "52",
+  "title": "Adobe Photoshop",
+  "world": "toolkit",
+  "tags": ["Design", "Adobe"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg",
+  "featured": false,
+  "description": "Photo Editing, Compositing, Digital Painting — 4+ Years"
+},
+{
+  "id": "53",
+  "title": "Adobe After Effects",
+  "world": "toolkit",
+  "tags": ["Video", "Motion"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg",
+  "featured": false,
+  "description": "Motion Graphics, Visual Effects, Animation"
+},
+{
+  "id": "54",
+  "title": "Adobe Premiere Pro",
+  "world": "toolkit",
+  "tags": ["Video"],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg",
+  "featured": false,
+  "description": "Video Editing, Color Grading, Audio Mixing"
+},
+{
+  "id": "55",
+  "title": "CapCut",
+  "world": "toolkit",
+  "tags": ["Video", "Mobile"],
+  "image": "https://www.internetmatters.org/wp-content/uploads/2025/09/CapCut-feature.webp",
+  "featured": false,
+  "description": "Fast-paced Video Editing For Social Media And Reels"
+},
+{
+  "id": "56",
+  "title": "Runway Gen-3",
+  "world": "toolkit",
+  "tags": ["AI", "Video"],
+  "image": "https://framerusercontent.com/images/nAmMafAbRoBHt0IsGNyGOfmjxE.png",
+  "featured": false,
+  "description": "Ai Video Generation And Advanced Motion Synthesis"
+},
+{
+  "id": "57",
+  "title": "Leonardo Ai",
+  "world": "toolkit",
+  "tags": ["AI", "Design"],
+  "image": "https://neurotoolshq.com/wp-content/uploads/2025/07/Leonardo-AI-logo-2.jpg",
+  "featured": false,
+  "description": "High-fidelity Ai Image Generation And Asset Creation"
+},
+{
+  "id": "58",
+  "title": "Luma AI",
+  "world": "toolkit",
+  "tags": ["AI", "3D"],
+  "image": "https://cdn.sanity.io/images/2ylxvaa2/production/f85dae6e276256b91880cbbbe14df93f010d9bd4-1920x1080.png?rect=0,36,1920,1008&w=1200&h=630&fm=jpg",
+  "featured": false,
+  "description": "3d Scene Capture And Realistic Ai Video Generation"
+}
+  ]
+}
