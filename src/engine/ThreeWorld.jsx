@@ -1476,13 +1476,13 @@ export default function ThreeWorld() {
   return (
     <div style={{ width: "100vw", height: "100vh", position: "relative", background: "#F8F0EC" }}>
       <Canvas
-  camera={{ position:[0,5,15], fov:50, near:0.1, far:600 }}
-  shadows={!isMobile}
-  dpr={[1, isMobile ? 1.5 : 2]}
-  gl={{
-    antialias: true,
-    powerPreference: "high-performance",
-    precision: isMobile ? "mediump" : "highp",
+        camera={{ position:[0,5,15], fov:50, near:0.1, far:600 }}
+        shadows={!isMobile}
+        dpr={[1, isMobile ? 1 : 1.5]}
+        gl={{
+          antialias: !isMobile,
+          powerPreference: "high-performance",
+          precision: isMobile ? "lowp" : "highp",
   }}
 >
         <WorldScene
