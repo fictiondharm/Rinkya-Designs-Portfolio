@@ -5,25 +5,25 @@
       "title": "Gaming Axe-I",
       "world": "3d-spatial",
       "tags": ["3D"],
-      "image": "/works/gaming-axe-1.webp",
+      "video": "/works/gaming-axe-1.mp4",
       "featured": true,
       "description": "Gaming Axe Sculpted In Maya With Full Texture Work"
     },
     {
       "id": "2",
-      "title": "Gaming Axe-Ii",
+      "title": "Buddha",
       "world": "3d-spatial",
       "tags": ["3D", "Concept"],
-      "image": "/works/Gaming Axe-II.webp",
+      "video": "/works/Buddha.mp4",
       "featured": false,
-      "description": "Gaming Axe Sculpted In Maya With Full Texture Work"
+      "description": "Buddha and whole temple Sculpted In Maya With Full Texture Work"
     },
     {
       "id": "3",
       "title": "Tanker Model",
       "world": "3d-spatial",
       "tags": ["3D", "Concept"],
-      "image": "/works/Tanker-Model.webp",
+      "video": "/works/Tanker-Model.mp4",
       "featured": false,
       "description": "Tanker Sculpted In Maya With Full Texture Work"
     },
