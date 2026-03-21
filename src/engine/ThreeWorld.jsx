@@ -1386,7 +1386,7 @@ function WorldScene({ onZone, onIntroEnd, onZoneClick }) {
         intensity={1.6}
         color="#FFF0E8"
         castShadow
-        shadow-mapSize={[512, 512]}
+        shadow-mapSize={[4096, 4096]}
         shadow-camera-near={1}
         shadow-camera-far={260}
         shadow-camera-left={-110}
@@ -1427,7 +1427,6 @@ function WorldScene({ onZone, onIntroEnd, onZoneClick }) {
    ROOT EXPORT
 ───────────────────────────────────────────── */
 export default function ThreeWorld() {
-  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   const [activeZone, setActiveZone] = useState(null);
   const [showPanel, setShowPanel] = useState(false);
   const [panelZone, setPanelZone] = useState(null);
@@ -1476,15 +1475,11 @@ export default function ThreeWorld() {
   return (
     <div style={{ width: "100vw", height: "100vh", position: "relative", background: "#F8F0EC" }}>
       <Canvas
-        camera={{ position:[0,5,15], fov:50, near:0.1, far:600 }}
-        shadows={!isMobile}
-        dpr={[1, isMobile ? 1 : 1.5]}
-        gl={{
-          antialias: !isMobile,
-          powerPreference: "high-performance",
-          precision: isMobile ? "lowp" : "highp",
-  }}
->
+        style={{ cursor: "default" }}
+        camera={{ position: [0, 5, 15], fov: 50, near: 0.1, far: 600 }}
+        shadows
+        gl={{ antialias: true, powerPreference: "high-performance" }}
+      >
         <WorldScene
           onZone={setActiveZone}
           onIntroEnd={() => setIntroOver(true)}

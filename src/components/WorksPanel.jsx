@@ -291,12 +291,10 @@ export default function WorksPanel({ zone, onClose }) {
             }}>
               {activeProject.video ? (
                 <video
-  src={activeProject.video}
-  controls
-  preload="metadata"
-  playsInline
-  style={{ width:"100%", height:"100%", objectFit:"contain" }}
-/>
+                  src={activeProject.video}
+                  controls autoPlay
+                  style={{ width:"100%", height:"100%", objectFit:"contain" }}
+                />
               ) : (activeProject.image && activeProject.image !== '/works/placeholder.jpg') ? (
                 <img
                   src={activeProject.image}
