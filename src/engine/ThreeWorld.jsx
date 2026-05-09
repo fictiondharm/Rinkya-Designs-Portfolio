@@ -20,10 +20,10 @@ const ZONES = [
   { id:"branding",        label:"Branding & Logos",  emoji:"✨", accent:"#E4B5BA",
     x:-30, z:24,  roofHex:0xE8B4A0, wallHex:0xFDF5F0,
     service:"Brand Identity · Logo Design · Sticker Design" },
-  { id:"3d-spatial",      label:"3D & Spatial",      emoji:"🌸", accent:"#C9A0C8",
+  { id:"3d-spatial",      label:"3D Design",      emoji:"🌸", accent:"#C9A0C8",
     x:30,  z:-24, roofHex:0xC9A0C8, wallHex:0xF5EDF8,
     service:"3D Modeling · Product Rendering · Concept Art" },
-  { id:"motion-design",   label:"Motion Design",     emoji:"🎬", accent:"#E8A87C",
+  { id:"motion-design",   label:"Video Editing",     emoji:"🎬", accent:"#E8A87C",
     x:40,  z:0,  roofHex:0xE8A87C, wallHex:0xFDF3EC,
     service:"Video Editing · Motion Graphics · Animation" },
   { id:"poster-design",   label:"Poster Design",     emoji:"🖨️", accent:"#9BB08F",
@@ -239,22 +239,7 @@ function Ground() {
         <meshStandardMaterial color={0xF5E2D8} roughness={0.9} />
       </mesh>
       {/* Decorative rings */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.04, 0]}>
-        <ringGeometry args={[6.0, 6.4, 64]} />
-        <meshStandardMaterial color="#D4829A" emissive="#D4829A" emissiveIntensity={0.5} />
-      </mesh>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.04, 0]}>
-        <ringGeometry args={[4.4, 4.7, 64]} />
-        <meshStandardMaterial color="#C9A0C8" emissive="#C9A0C8" emissiveIntensity={0.4} />
-      </mesh>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.04, 0]}>
-        <ringGeometry args={[2.8, 3.0, 64]} />
-        <meshStandardMaterial color="#D4829A" emissive="#D4829A" emissiveIntensity={0.4} />
-      </mesh>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.04, 0]}>
-        <circleGeometry args={[1.2, 48]} />
-        <meshStandardMaterial color="#E8B4A0" emissive="#E8B4A0" emissiveIntensity={0.5} />
-      </mesh>
+      
       <PlazaOrnament />
       {/* Footpaths */}
       {ZONES.map(zone => {
@@ -1320,7 +1305,7 @@ function SignPost({ onZoneClick }) {
   const rightZ = ZONES.filter(z => ["3d-spatial", "motion-design", "toolkit", "contact"].includes(z.id));
 
   return (
-    <group position={[0, 0, 5.5]} scale={2.0}>
+    <group position={[0, 0, 5.5]} scale={2.8}>
       {/* Main Pole */}
       <mesh position={[0, 0, -0.2]} castShadow>
         <cylinderGeometry args={[0.2, 0.2, 10, 20]} />
@@ -1336,13 +1321,11 @@ function SignPost({ onZoneClick }) {
           <boxGeometry args={[6.3, 1.5, 0.04]} />
           <meshStandardMaterial color="#D4829A" emissive="#D4829A" emissiveIntensity={0.3} transparent opacity={0.5} />
         </mesh>
-        <Text position={[0, 0.25, 0.12]} fontSize={0.5} color="#FDFBF9" anchorX="center" anchorY="middle" letterSpacing={0.05} fontWeight="bold">
+        <Text position={[0, -0.0015, 0.12]} fontSize={0.58} color="#FDFBF9" anchorX="center" anchorY="middle" letterSpacing={0.05} fontWeight="bold">
           RINKYA DESIGNS
         </Text>
         {/* Updated tagline — removed "EXPLORE THE UNIVERSE", replaced with designer name */}
-        <Text position={[0, -0.25, 0.12]} fontSize={0.2} color="#F5E0E0" anchorX="center" anchorY="middle" letterSpacing={0.12}>
-          Rinku Patel · Graphic Designer
-        </Text>
+        
       </group>
       {/* Left Boards */}
       {leftZ.map((z, i) => (
