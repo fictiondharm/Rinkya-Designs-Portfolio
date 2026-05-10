@@ -1,12 +1,39 @@
-import { useState } from "react";
-import works from "../data/works.json";
+import { useState, useEffect } from "react";
+import { supabase } from "../lib/supabase";
 
 export default function WorksPanel({ zone, onClose }) {
   const [activeTag,    setActiveTag]    = useState("All");
   const [activeProject,setActiveProject]= useState(null);
+  const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  const zoneWorks = works.projects.filter(p => p.world === zone?.id);
-  const allTags   = ["All", ...new Set(zoneWorks.flatMap(p => p.tags))];
+  useEffect(() => {
+    if (zone?.id) {
+      fetchProjects();
+    }
+  }, [zone?.id]);
+
+  const fetchProjects = async () => {
+    setLoading(true);
+    const { data, error } = await supabase
+      .from("projects")
+      .select("*")
+      .eq("world", zone.id)
+      .order("sort_order", { ascending: true });
+    if (error) {
+      console.warn("Supabase fetch error (is RLS enabled?):", error.message);
+    } else if (data) {
+      setProjects(data.map(p => ({
+        ...p,
+        image: p.image_url,
+        video: p.video_url,
+      })));
+    }
+    setLoading(false);
+  };
+
+  const zoneWorks = projects;
+  const allTags   = ["All", ...new Set(zoneWorks.flatMap(p => p.tags || []))];
   const filtered  = activeTag === "All"
     ? zoneWorks
     : zoneWorks.filter(p => p.tags.includes(activeTag));
@@ -134,7 +161,16 @@ export default function WorksPanel({ zone, onClose }) {
           </div>
 
           {/* Grid */}
-          {filtered.length === 0 ? (
+          {loading ? (
+            <div style={{
+              textAlign:"center", padding:"60px 0",
+              color:"rgba(45,42,38,0.3)",
+              fontFamily:"'Outfit', sans-serif",
+              fontSize:12, letterSpacing:"0.2em",
+            }}>
+              Loading...
+            </div>
+          ) : filtered.length === 0 ? (
             <div style={{
               textAlign:"center", padding:"60px 0",
               color:"rgba(45,42,38,0.3)",
@@ -203,6 +239,8 @@ export default function WorksPanel({ zone, onClose }) {
                       <img
                         src={project.image}
                         alt={project.title}
+                        loading="lazy"
+                        decoding="async"
                         style={{
                           position: "absolute",
                           top: 0,
@@ -301,6 +339,8 @@ export default function WorksPanel({ zone, onClose }) {
                 <img
                   src={activeProject.image}
                   alt={activeProject.title}
+                  loading="lazy"
+                  decoding="async"
                   style={{ width:"100%", height:"100%", objectFit:"contain" }}
                 />
               ) : (
